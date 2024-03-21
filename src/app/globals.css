@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@screen sm {
+    .container {
+      max-width: 640px;
+    }
+  
+    .text-small {
+      font-size: 14px;
+    }
+  }
